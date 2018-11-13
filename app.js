@@ -9,6 +9,9 @@ var config = {
     messagingSenderId: "227891755490"
   };
   firebase.initializeApp(config);
+
+  var database = firebase.database();
+
 // Moment.js app
 // Intial values
 // Capture button click
